@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body{
+    background-color:#ffcccc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.boxmodel{
+    background-color: black;
+    padding: 10px;
+}
+h1{
+    color: rgb(204, 102, 255);
+}
+
+h3{
+    color:red;
+    background-color: aqua;
+    padding: 10px;
+    font-style: italic;
+    text-align: center;
+    word-spacing: 0.2rem;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+/* div{
+    font-size: 10px;
+} */
+
+p{
+    color:hsl(280, 100%, 20%);
+    font-family: 'Lobster', Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.6em;
+}
+
+#para{
+    color:hsl(0, 46%, 68%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: normal;
+    line-height: 1em;
+}
+
+#box-model{
+   background-color: rgb(0, 255, 13);
+    border:10px solid red;
+    padding: 10px;
+    margin: 30px;
+}
