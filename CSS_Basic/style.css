@@ -48,3 +48,125 @@ p{
     padding: 10px;
     margin: 30px;
 }
+.categories{
+    border: 5px solid blue;
+    padding: 10px;
+    border-radius: 50px;
+}
+h2{
+    text-align: center;
+}
+.categories a{
+    padding: 1px;
+    color: black;
+    text-decoration: none;
+    
+}
+.categories a:hover{
+    text-decoration: underline;
+    color: rgb(42, 120, 165);
+}
+.categories ul{
+    padding: 0px;
+    list-style: none;
+}
+ /* form ko beautify kaise kare */
+.my-form{
+    padding: 10px;
+    
+}
+.form-group{
+    padding-bottom: 10px;
+    
+    
+}
+.input-type{
+    display: block;
+    padding: 5px;
+    width: 50%;
+    border-radius: 8px;
+}
+.button{
+    border-radius: 5px;
+    padding: 5px;
+}
+.button:hover{
+    background-color: blue;
+    color: floralwhite;
+    cursor: pointer;
+}
+ /* float concept */
+.block{
+    float: left;
+    width: 50%;
+}
+
+.clearfix{
+    clear:both;
+}
+
+#main_block{
+    float: left;
+    width: 70%;
+    padding: 15px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+#side_bar{
+    float: right;
+    width: 30%;
+    padding: 15px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+ .position-box{
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    position: relative;
+    background-image: url('./images/large-unsplash\ \(1\).jpg'); 
+    /* background image setting */
+    background-repeat: no-repeat;
+    background-size: cover; 
+ }
+ .position-box h1{
+    position: absolute;
+    top: 60px;
+    left: 20px;
+ }
+
+ .position-box h2{
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+ }
+
+ .fixed-button{
+    position: fixed;
+    top: 20px;
+
+ }
+/* pseudo properties */
+ .my-list li:first-child{
+    background-color: aqua;
+    
+ }
+
+ .my-list li:last-child{
+    background-color: blueviolet;
+ }
+
+ .my-list li:nth-child(3){
+    background-color: azure;
+
+ }
+
+ .dynamic-list li:nth-child(even){
+    background-color: lightcoral;
+ }
+
+ .dynamic-list li:nth-child(odd){
+    background-color:brown;
+ }
