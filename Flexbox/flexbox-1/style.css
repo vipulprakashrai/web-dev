@@ -1,0 +1,60 @@
+/* some default styles to make each box visible */
+.box{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: red;
+    text-align: center;
+    font-size: 50px;
+   
+     
+}
+/* color for each box */
+.box1{
+    background-color: black;
+}
+
+.box2{
+    background-color: green;
+}
+
+.box3{
+    background-color: aqua;
+}
+
+.box4{
+    background-color: blue;
+}
+
+.box5{
+    background-color: blueviolet;
+}
+
+.box6{
+    background-color: chocolate;
+}
+
+.box7{
+    background-color: darkmagenta;
+}
+
+.container{
+    display: flex;
+    border: 2px solid brown;
+    /* justify-content: flex-end; */
+    height: 100vh; 
+    /* flex-direction: column; */
+    /* align-items: center; */
+    align-items: baseline;
+}
+                                         
+.box1{ font-size: 40px;}
+.box2{ font-size: 60px;}
+.box3{ font-size: 80px;}
+.box4{ font-size: 100px;}
+.box5{ font-size: 80px;}
+.box6{ font-size: 60px;}
+.box7{ font-size: 40px;}
+
+
+
+ 
