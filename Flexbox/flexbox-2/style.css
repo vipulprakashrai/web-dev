@@ -1,0 +1,50 @@
+*{ box-sizing: border-box;}
+
+/* Some default styles to make each box visible */
+.box{
+    padding: 10px;
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    width: 33.33%;
+}
+/* color for each box */
+.box1{ background-color: #1aa3ff;}
+.box2{ background-color: #1d1b17;}
+.box3{ background-color: #6e5c2b;}
+.box4{ background-color: #c56eb2;}
+.box5{ background-color: #a0a5a8;}
+.box6{ background-color:#ffb3b3;}
+.box7{ background-color: #ff9933;}
+.box8{ background-color: #121742;}
+.box9{ background-color: #cc3939;}
+
+
+.container{
+    display: flex;
+    border: 5px solid black;
+    height: 100vh;
+    /* flex-wrap: wrap;
+    align-content: space-evenly; */
+    align-items: flex-start;
+}
+
+.box2{
+    padding-bottom: 100px;
+    align-self: flex-end;
+}
+
+.box4{
+    padding-bottom: 200px;
+    align-self: center;
+}
+
+.box6{
+    padding-bottom: 20px;
+    align-self: auto;
+}
+
+.box8{
+    align-self:stretch;
+}
+
