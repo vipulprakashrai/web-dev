@@ -1,0 +1,69 @@
+:root{
+    --yellow:#ffc600;
+    --black:#272727;
+}
+
+html{
+    box-sizing:border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: 10px;
+    color: var(--black);
+    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
+}
+
+body{
+    background-image: url(./2-unplash.jpg);
+    margin: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    letter-spacing: -1px;
+}
+
+/* Each item in our grid will contain number */
+.item{
+    /* We center the contents of these items. we can also do this with flexbox too!  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgba(0, 0, 0, 0.03);
+    border-radius: 3px;
+    font-size: 35px;
+    background-color: var(--yellow);
+}
+/* Sizing grid items */
+.container{
+     display: grid;
+     gap: 10px;
+     grid-template-columns: repeat(5, 1fr);
+
+}
+
+.item9{
+    background: magenta;
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.item16{
+   background: lime;
+   /* grid-column-start: 2;
+   grid-column-end: 6; */
+   grid-column: 2 / span 4;
+}
+
+.item17{
+    background: fuchsia;
+    grid-column: 1 / -1;
+}
+
+.item18{
+    background: sienna;
+    grid-column: 1 / -3;
+}
+
+.item20{
+    background: linen;
+    grid-column: 1 / -3;
+    grid-row: 8 / 10;
+}
