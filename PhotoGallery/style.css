@@ -1,0 +1,58 @@
+:root{
+    --yellow:#ffc600;
+    --black:#272727;
+}
+
+html{
+    box-sizing:border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: 10px;
+    color: var(--black);
+    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
+}
+
+body{
+    background-image: url(./large-unsplash.jpg);
+    margin: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    letter-spacing: -1px;
+}
+
+/* Each item in our grid will contain number */
+.item{
+    /* We center the contents of these items. we can also do this with flexbox too!  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgba(0, 0, 0, 0.03);
+    border-radius: 3px;
+    font-size: 35px;
+    background-color: var(--yellow);
+}
+
+.item p{
+    margin: 0 0 5px 0;
+
+}
+
+.albums{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 10px;
+}
+
+.album{
+    background:rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    display: grid;
+    grid-template-columns:150px 1fr;
+    gap: 10px;
+}
+
+.album_artwork{
+    width: 100%;
+}
+
+
